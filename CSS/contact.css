@@ -1,0 +1,66 @@
+nav{
+	background:rgb(36, 32, 94);
+	width: 100%;
+	margin: auto;
+	position: fixed;
+}
+.navbar ul{
+	margin: auto 80px auto auto;
+	padding: 0px;
+	list-style: none;
+	overflow: auto;
+	text-align: right;
+}
+.navbar li{
+	display: inline-block;
+	margin: 15px 10px;
+}
+.navbar li a{
+	text-decoration: none;
+	padding: 10px;
+	color: whitesmoke;
+	border-radius: 6px;
+}
+
+.navbar li a:hover{
+	color: rgb(36, 32, 94);
+	background: whitesmoke;
+	border-radius: 6px;
+	transition-delay: 0.3s;
+}
+.wholeform label{
+	display: flex;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.wholeform input{
+	display: flex;
+	max-width: 1000px;
+	margin: auto;
+}
+.wholeform select, textarea{
+	display: flex;
+	max-width: 1000px;
+	margin: auto;
+}
+.internalbody{
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 100px;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+}
+body{
+	background-color: white;
+	background-repeat: no-repeat;
+	color: rgb(36, 32, 94);
+	background-size: cover;	/*cover entire screen*/
+	background-position:center ;
+	font-family:  'Roboto Mono', serif;
+	background-position: center;
+	margin: 0px 0px;
+}
+.introduction{
+	margin: 100px 20px 20px 20px;
+}

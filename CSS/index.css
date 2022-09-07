@@ -1,0 +1,72 @@
+nav{
+	background:rgb(36, 32, 94);
+	width: 100%;
+	margin: auto;
+	position: fixed;
+}
+.navbar ul{
+	margin: auto 80px auto auto;
+	padding: 0px;
+	list-style: none;
+	overflow: auto;
+	text-align: right;
+}
+.navbar li{
+	display: inline-block;
+	margin: 15px 10px;
+}
+.navbar li a{
+	text-decoration: none;
+	padding: 10px;
+	color: whitesmoke;
+}
+
+.navbar li a:hover{
+  border-color: #ffff;
+  border-width: 5px;
+  border: #ffff;
+  border-width: 1em;
+}
+
+.discovermore{
+	background-image: linear-gradient(90deg,rgb(36, 32, 94),#47B5FF);
+	border:none;
+	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+	color: white;
+	border-radius:10%;
+	padding: 5%;
+
+}
+
+.discovermore :hover{
+	text-decoration: underline;
+}
+
+.internalbody{
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+}
+
+body{
+	background-color: white;
+	background-repeat: no-repeat;
+	color: rgb(36, 32, 94);
+	background-size: cover;	/*cover entire screen*/
+	background-position:center ;
+	font-family:  'Roboto Mono', serif;
+	background-position: center;
+	margin: 0px 0px;
+}
+.introduction{
+	margin: 0px 50% 20px 20px;
+	text-align: 10px;
+}
+
+.aboutme{
+	margin: 0px 10% 20px 50%;
+}
